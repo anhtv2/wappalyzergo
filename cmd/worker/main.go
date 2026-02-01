@@ -9,7 +9,7 @@ import (
 	"log"
 	"os"
 
-	wappalyzer "github.com/projectdiscovery/wappalyzergo"
+	wappalyzer "github.com/anhtv2/wappalyzergo"
 )
 
 type request struct {

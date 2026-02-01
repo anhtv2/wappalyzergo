@@ -15,7 +15,7 @@ Uses data from
 ### Using *go install*
 
 ```sh
-go install -v github.com/projectdiscovery/wappalyzergo/cmd/update-fingerprints@latest
+	go install -v github.com/anhtv2/wappalyzergo/cmd/update-fingerprints@latest
 ```
 
 After this command *wappalyzergo* library source will be in your current go.mod.
@@ -32,7 +32,7 @@ import (
 	"log"
 	"net/http"
 
-	wappalyzer "github.com/projectdiscovery/wappalyzergo"
+	wappalyzer "github.com/anhtv2/wappalyzergo"
 )
 
 func main() {
